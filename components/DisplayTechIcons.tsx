@@ -2,7 +2,7 @@ import React from 'react'
 import { cn, getTechLogos } from '@/lib/utils';
 import Image from 'next/image';
 
-const DiaplayTechIcons = async ({ techStack }: TechIconProps) => {
+const DisplayTechIcons = async ({ techStack }: TechIconProps) => {
 
     const techIcons = await getTechLogos(techStack);
 
@@ -23,4 +23,4 @@ const DiaplayTechIcons = async ({ techStack }: TechIconProps) => {
     )
 }
 
-export default DiaplayTechIcons
+export default DisplayTechIcons
